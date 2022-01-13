@@ -36,7 +36,7 @@ function printOperator(data) {
 }
 
 function printOperation() {
-    let data = document.getElementById("data").value 
+    let data = document.getElementById("data").value
     let array = validateOperator(data.split(' '))
 
     updateInput(array, true)
